@@ -1,1 +1,1 @@
-# AdventureWorks-Sales-Dashboard
+# AdventureWorks Sales Dashboard
