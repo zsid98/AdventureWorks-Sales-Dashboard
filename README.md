@@ -75,6 +75,8 @@ The Sales table uses an order-line level grain, meaning each row represents an i
 
 ## Key Business Insights
 
+Introduction of accessories and clothing beginning in 2021 coincided with a noticeable increase in overall gross margin. While bikes continued to generate the vast majority of revenue, accessories contributed significantly to unit sales and exhibited the highest gross margin percentage.
+
 ## Skills Demonstrated
 
 ## Future Improvements
