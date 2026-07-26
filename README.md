@@ -27,7 +27,7 @@ This project demonstrates the development of an interactive sales dashboard in P
 ## Data Preparation
 The source files required minimal cleaning before analysis. The following transformations were performed in Power Query:
 - Reviewed source tables and verified data structure.
-- Removed unnecessary blank values where applicable.
+- Removed unnecessary blank values.
 - Appended yearly sales files (2020–2022) into a single Sales fact table.
 - Disabled loading of intermediate yearly sales queries to maintain a clean data model.
 
