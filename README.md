@@ -28,7 +28,6 @@ This project demonstrates the development of an interactive sales dashboard in P
 The source files required minimal cleaning before analysis. The following transformations were performed in Power Query:
 - Reviewed source tables and verified data structure.
 - Removed unnecessary blank values where applicable.
-- Corrected data types for numerical fields and dates.
 - Appended yearly sales files (2020–2022) into a single Sales fact table.
 - Removed the Product Description column from the Products table as it was not required for analysis.
 - Disabled loading of intermediate yearly sales queries to maintain a clean data model.
@@ -73,10 +72,19 @@ The Sales table uses an order-line level grain, meaning each row represents an i
 
 ## Dashboard
 
-## Key Business Insights
+- **Executive Sales Overview** — Provides a high-level view of sales performance, including key performance indicators, sales trends over time, and regional sales distribution.
+- **Product Profitability** — Analyzes profitability across product categories and subcategories using sales, gross profit, and gross margin metrics, with drill-down functionality for deeper analysis.
+- Note: Categories without sales activity were excluded from performance visuals.
 
-Introduction of accessories and clothing beginning in 2021 coincided with a noticeable increase in overall gross margin. While bikes continued to generate the vast majority of revenue, accessories contributed significantly to unit sales and exhibited the highest gross margin percentage.
+## Key Insights
 
-## Skills Demonstrated
+- Bikes generated the majority of revenue and gross profit, accounting for approximately 95% of total sales.
+- Accessories had the highest gross margin percentage, despite contributing a smaller share of total revenue.
+- The introduction of accessories and clothing in 2021 increased product diversity and contributed to improved overall gross margin.
+- Sales volume increased significantly after 2020 as additional product categories were introduced.
+  
+## Tools Used
 
-## Future Improvements
+- Power BI
+- Power Query
+- DAX
